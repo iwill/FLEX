@@ -4,7 +4,7 @@ import PackageDescription
 
 enum FLEXBuildOptions {
     /// Set this to `true` to use `.unsafeFlags` to silence warnings.
-    static let silenceWarnings = false
+    static let silenceWarnings = true
 }
 
 #if swift(>=5.9)
